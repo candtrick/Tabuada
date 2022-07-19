@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+
+body{
+    background-color: #f1bce2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulo{
+    flex-direction: column;
+    line-height: 4.5px;
+}
+
+span{
+    color: #98b7ec;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 1px #3e316e67;   
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 1px #00000067; 
+}
+
+li{
+    display: inline-block;
+    margin: 13px;
+    font-size: 13px;
+}
+
+a{
+    color: white;
+    border: 2.6px solid white;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+a:hover{
+    background-color: #a7c0ec;
+    transition: 400ms all;
+}
+
+#sobreMim{
+    border: 3.4px solid #98b7ec;
+}
+
+
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    padding: 29px;
+}
+
+.h3{
+    
+    line-height: 55px;
+    font-size: 50px;
+}
+
+.digite-um-numero{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 1px #3e316e67;
+}
+
+.digite-um-numero:hover{
+    transition: 700ms;
+    color: #a7c0ec;
+}
+
+#form{
+    font-family: 'Gulzar', serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #00000067;
+}
+
+#number{
+    width: 300px;
+    height: 30px;
+    border: 2.6px solid rgba(182, 177, 177, 0.596);
+    border-radius: 12px;
+    padding: 7px;
+}
+
+#gerar{
+    font-family: 'Gulzar', serif;
+    font-size: 18px;
+    border: 2.6px solid white;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 4px;
+    color: white;
+}
+
+#gerar:hover{
+    transition: 255ms all;
+    background-color: #f7a4df;
+    cursor: pointer;
+}
+
+#tabuada{
+    width: 317px;
+    height: 40px;
+    border: 2.6px solid white;
+    background-color: transparent;
+    border-radius: 12px;
+    margin-right: 133px;
+    margin-top: 10px;
+} 
+
+
+
+#me{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    color: #4c81dd;
+    text-shadow: 1px 1px 1px #9c8aad4f;
+    padding: 25px;
+    margin-right: 115px;
+    min-width: 250px;
+}
