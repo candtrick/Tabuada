@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
+
+
+*{  margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;            
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #e08999;    
+    border-radius: 20px;      
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-right: 30%;
+
+    position: fixed;
+    background-color: white;
+    height: 4.5rem;
+    width: 100%;
+    justify-content: space-around; 
+}
+
+#meuNome{
+    margin-left: 2%;
+}
+
+h1{
+    
+    font-size: 1.3em;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.13);
+    padding: 0.6em;
+    margin-top: 10px;
+}
+
+span{
+    display: flex;
+    font-size: 80%;
+    font-weight: 100; 
+    margin-top: -12%;
+    margin-left: 5%;
+}
+
+nav {
+    display: flex; 
+    width: 97%;
+    justify-content: space-around;    
+}
+
+#menu{
+    display: flex;
+    list-style: none;    
+    width:80%;
+    justify-content: space-evenly;
+}
+
+li{
+    font-size: 14px;
+}  
+
+
+
+
+
+
+main{
+    width: 100%;
+}
+
+section{
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+#sobre{
+    background-color: #4e4376;
+    color: black;
+    padding: 30px;  
+}
+
+h2{
+    font: normal bolder  50px 'Poppins', sans-serif;
+    padding: 30px;
+    margin-top: 47px;
+}
+
+h3{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 31px;
+}
+
+#texto ,#texto2{
+    padding: 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 100%;
+
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.671);
+    font: normal 100  15px 'Poppins', sans-serif;
+    background-color: white;
+}
+
+#pqTrab{
+    background-color: #e08999;
+    color: black;
+    padding: 30px;
+}
+  
+#contatos{
+    background-color: #9795f0;
+    color: black;
+    padding: 30px;
+}
+
+#redesSociais{
+   list-style: none;
+   margin-top: 40px;
+   max-width: 168px;
+}
+
+#voltar{    
+    margin-left: 50%;
+    font-size: 18px;
+    padding-top: 20%;
+    cursor: pointer;
+    background-color: #9795f0;
+    border: none;
+}
+
+#seta{
+    width: 15px;
+    height: 15px;
+}
+
+footer{
+    background-color: #9795f0;
+    border: 0.5px solid #0000003a;
+    border-right: transparent;
+}
+
+footer ul{
+    list-style: circle;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+footer li{
+    font-size: 17px;
+}
